@@ -78,7 +78,7 @@ def get_pokemon_data() -> pd.DataFrame:
         {"name": "Umbreon", "type1": "Dark", "type2": None, "prev_evolution": "Eevee", "next_evolution": None, "hp": 95, "attack": 65, "defense": 110, "sp_attack": 60, "sp_defense": 130, "speed": 65},
         {"name": "Tyranitar", "type1": "Rock", "type2": "Dark", "prev_evolution": "Pupitar", "next_evolution": None, "hp": 100, "attack": 134, "defense": 110, "sp_attack": 95, "sp_defense": 100, "speed": 61},
         {"name": "Lugia", "type1": "Psychic", "type2": "Flying", "prev_evolution": None, "next_evolution": None, "hp": 106, "attack": 90, "defense": 130, "sp_attack": 90, "sp_defense": 154, "speed": 110},
-        {"name": "Ho Oh", "type1": "Fire", "type2": "Flying", "prev_evolution": None, "next_evolution": None, "hp": 106, "attack": 130, "defense": 90, "sp_attack": 110, "sp_defense": 154, "speed": 90},
+        {"name": "Ho-Oh", "type1": "Fire", "type2": "Flying", "prev_evolution": None, "next_evolution": None, "hp": 106, "attack": 130, "defense": 90, "sp_attack": 110, "sp_defense": 154, "speed": 90},
         
         # Gen 3 Pokemon
         {"name": "Treecko", "type1": "Grass", "type2": None, "prev_evolution": None, "next_evolution": "Grovyle", "hp": 40, "attack": 45, "defense": 35, "sp_attack": 65, "sp_defense": 55, "speed": 70},
@@ -164,7 +164,7 @@ def get_pokemon_data() -> pd.DataFrame:
         {"name": "Primarina", "type1": "Water", "type2": "Fairy", "prev_evolution": "Brionne", "next_evolution": None, "hp": 80, "attack": 74, "defense": 74, "sp_attack": 126, "sp_defense": 116, "speed": 60},
         {"name": "Lycanroc", "type1": "Rock", "type2": None, "prev_evolution": "Rockruff", "next_evolution": None, "hp": 75, "attack": 115, "defense": 65, "sp_attack": 55, "sp_defense": 65, "speed": 112},
         {"name": "Mimikyu", "type1": "Ghost", "type2": "Fairy", "prev_evolution": None, "next_evolution": None, "hp": 55, "attack": 90, "defense": 80, "sp_attack": 50, "sp_defense": 105, "speed": 96},
-        {"name": "Kommo O", "type1": "Dragon", "type2": "Fighting", "prev_evolution": "Hakamo O", "next_evolution": None, "hp": 75, "attack": 110, "defense": 125, "sp_attack": 100, "sp_defense": 105, "speed": 85},
+        {"name": "Kommo-o", "type1": "Dragon", "type2": "Fighting", "prev_evolution": "Hakamo-o", "next_evolution": None, "hp": 75, "attack": 110, "defense": 125, "sp_attack": 100, "sp_defense": 105, "speed": 85},
         {"name": "Solgaleo", "type1": "Psychic", "type2": "Steel", "prev_evolution": "Cosmoem", "next_evolution": None, "hp": 137, "attack": 137, "defense": 107, "sp_attack": 113, "sp_defense": 89, "speed": 97},
         {"name": "Lunala", "type1": "Psychic", "type2": "Ghost", "prev_evolution": "Cosmoem", "next_evolution": None, "hp": 137, "attack": 113, "defense": 89, "sp_attack": 137, "sp_defense": 107, "speed": 97},
         {"name": "Necrozma", "type1": "Psychic", "type2": None, "prev_evolution": None, "next_evolution": None, "hp": 97, "attack": 107, "defense": 101, "sp_attack": 127, "sp_defense": 89, "speed": 79},

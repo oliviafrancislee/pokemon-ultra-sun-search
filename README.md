@@ -37,13 +37,9 @@ streamlit run app.py
 
 The application will open in your default web browser at `http://localhost:8501`.
 
-### First Run
-
-On the first run, the application will fetch Pokemon data from PokeAPI. This may take a few minutes to download information for all 807 Pokemon. The data will be cached in `pokemon_data.csv` for faster subsequent runs.
-
 ## Data Source
 
-Pokemon data is fetched from the [PokeAPI](https://pokeapi.co/), a free and open Pokemon API.
+The application uses a predefined static dataset containing 149 Pokemon from Generations 1-7, representing a comprehensive sample of Pokemon available in Pokemon Ultra Sun. The data includes all starter Pokemon evolution lines, popular Pokemon from each generation, and legendary Pokemon.
 
 ## How to Use
 
@@ -56,5 +52,4 @@ Pokemon data is fetched from the [PokeAPI](https://pokeapi.co/), a free and open
 
 - Python 3.8+
 - pandas
-- requests
 - streamlit
